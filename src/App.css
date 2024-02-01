@@ -1,38 +1,117 @@
-.App {
+.PostCard{
+  border: 1px solid black;
+  width: 250px;
+  height: 150px;
+  text-align: center;
+}
+.all_blog{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 50px;
+}
+.container{
+  margin-top: 30px;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+}
+Button{
+  background-color: rgb(239, 242, 247) !important;
+}
+.link{
+  text-decoration: none;
+}
+
+
+
+
+/* Basic styling for the Blog Comments System */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main {
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+section {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  margin-top: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#blog-section {
+  display: block;
 }
+
+#comment-section {
+  display: block;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #164c50;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #dae7f5;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3 !important;
+  color: #fff;
+}
+
+.all_post_button{
+  font-size: 20px;
+  background-color: rgb(156, 247, 247) !important;
+}
+.all_post_button:hover{
+  background-color: rgb(35, 139, 139) !important;
+
+}
+
+/* Add more CSS for blog posts, comments, and styling as needed */
+
